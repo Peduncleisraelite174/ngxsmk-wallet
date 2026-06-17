@@ -161,7 +161,7 @@ NGXSMK Wallet is an advanced, **zero-knowledge, offline-first secure desktop vau
 
 ### All Releases
 
-See the [Releases](https://github.com/YOUR_USERNAME/ngxsmk-wallet/releases) page for all versions and changelogs.
+See the [Releases](https://github.com/NGXSMK/ngxsmk-wallet/releases) page for all versions and changelogs.
 
 ---
 
