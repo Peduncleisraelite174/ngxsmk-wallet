@@ -2,7 +2,38 @@
 
 **Privacy-first, fully local Digital Identity, Secrets, Password & Secure Document Manager**
 
-NGXSMK Wallet is a zero-knowledge, offline-first desktop vault that keeps your digital life encrypted and under your control. No cloud, no telemetry, no tracking — everything stays on your device.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Tauri](https://img.shields.io/badge/Tauri-v2-FFC107?logo=tauri&logoColor=white)](https://tauri.app/)
+[![Rust](https://img.shields.io/badge/Rust-1.75+-black?logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![React](https://img.shields.io/badge/React-19-blue?logo=react&logoColor=white)](https://react.dev/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-brightgreen)](https://github.com/NGXSMK/ngxsmk-wallet)
+[![Security](https://img.shields.io/badge/Security-Zero--Knowledge-success.svg)](https://github.com/NGXSMK/ngxsmk-wallet)
+
+NGXSMK Wallet is an advanced, **zero-knowledge, offline-first secure desktop vault** designed to keep your digital identity, passwords, credentials, secrets, and private documents completely encrypted and under your exclusive control. Built using modern technologies like **Tauri v2**, **Rust**, and **React 19**, it ensures absolute privacy by storing all vault data locally on your device with no cloud dependencies, no telemetry, and no tracking.
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+  - [Password Management](#password-management)
+  - [Passkeys & WebAuthn](#passkeys--webauthn)
+  - [Secure Documents](#secure-documents)
+  - [Identity Records](#identity-records)
+  - [Multi-Factor Authentication (TOTP)](#multi-factor-authentication-totp)
+  - [Security Dashboard](#security-dashboard)
+  - [Local Secret Scanner](#local-secret-scanner)
+  - [Backup & Recovery](#backup--recovery)
+  - [Import & Export](#import--export)
+  - [Platform Security](#platform-security)
+- [Architecture](#architecture)
+- [System Requirements](#system-requirements)
+- [Download](#download)
+- [Quick Start](#quick-start)
+- [Building from Source](#building-from-source)
+- [Security](#security)
+- [License](#license)
+- [About NGXSMK](#about-ngxsmk)
 
 ---
 
@@ -165,7 +196,7 @@ NGXSMK Wallet is designed with security as the primary concern:
 - **Constant-time operations** — mitigates timing side-channel attacks
 - **Offline-first** — no network requests, no telemetry, no cloud dependence
 
-Found a vulnerability? Contact **[security@ngxsmk.com](mailto:security@ngxsmk.com)**
+Found a vulnerability? Contact **[ngxsmk@gmail.com](mailto:ngxsmk@gmail.com)**
 
 ---
 
