@@ -1,0 +1,1 @@
+# ngxsmk-wallet
